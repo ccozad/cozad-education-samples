@@ -55,6 +55,7 @@ void setup()
   // The speed of sound is not contant and depends on the medium it is 
   // traveling through, temperature, humidity and other factors. Our 
   // approximation is greatly simplified and we will only consider 
+  // temperature variation for a typical earth atmosphere.
   // See http://hyperphysics.phy-astr.gsu.edu/hbase/Sound/souspe3.html
   // for additional context.
   speed_of_sound_ref = 331.4;
